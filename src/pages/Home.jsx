@@ -64,7 +64,7 @@ function Home() {
                 <Row>
                    { homeProjects.length>0 ? homeProjects.map((project)=>(
                    
-                         <Col sm={12} md={4} style={{width:'400px'}}>
+                         <Col sm={12} md={4} >
                          <ProjectCard project={project}/>
                         </Col>
                      
